@@ -1,0 +1,89 @@
+/* Movie list layout */
+.movie-list {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	padding: 24px;
+	align-items: center;
+}
+
+.movie-list-wrapper {
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	align-items: center;
+}
+
+.movie-card {
+	display: flex;
+	gap: 12px;
+	background: #fff;
+	color: #111;
+	border-radius: 8px;
+	padding: 16px;
+	box-shadow: 0 6px 18px rgba(16, 24, 40, 0.08);
+	align-items: flex-start;
+	width: 400px;
+	height: 250px;
+	box-sizing: border-box;
+}
+
+.movie-image {
+	width: 72px;
+	height: 96px;
+	object-fit: cover;
+	border-radius: 6px;
+}
+
+.movie-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 100%;
+	gap: 8px;
+}
+
+.movie-meta {
+	display: flex;
+	flex-direction: column;
+	gap: 6px;
+}
+
+.movie-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.movie-title {
+	margin: 0;
+	font-size: 1rem;
+}
+
+.movie-sub {
+	margin: 6px 0;
+	color: #555;
+	font-size: 0.9rem;
+}
+
+.genre-pill {
+	display: inline-block;
+	background: #f8e6e6;
+	color: #b23030;
+	padding: 4px 8px;
+	border-radius: 999px;
+	font-size: 0.75rem;
+	margin-right: 6px;
+}
+
+.movie-stats {
+	margin-top: 8px;
+	font-size: 0.85rem;
+	color: #333;
+}
+
+.movie-list-section {
+	max-width: 1000px;
+	margin: 24px auto;
+}
